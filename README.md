@@ -11,7 +11,7 @@ Ce script simule la propagation d'un **soliton** à l’aide de la méthode du *
 
 ψ(x, t = 0) = sech(x) · exp(i·v·x)
 
-On observe une onde localisée qui se propage sans se déformer, typique du comportement des solitons. Plusieurs courbes |ψ̂(k)| sont superposées au fil du temps pour illustrer ce mouvement.
+On observe une onde localisée qui se propage sans se déformer, typique du comportement des solitons. Plusieurs courbes |ψ(x)|² sont superposées au fil du temps pour illustrer ce mouvement.
 
 ### 2. `thermalisation_simulation.py`
 Ce script explore la **thermalisation d’un champ d’onde** injecté aléatoirement dans l’espace de Fourier. Il inclut :
