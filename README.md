@@ -18,7 +18,7 @@ Ce script explore la **thermalisation d’un champ d’onde** injecté aléatoir
 - Une initialisation spectrale avec bruit de phase
 - L'évolution du système via split-step
 - Le suivi de la fraction condensée \( n_0 \)
-- L'ajustement du spectre |FFT[ψ](k)| par la loi :
+- L'ajustement du spectre |FFT(ψ(k))| par la loi :
 
 n_k^eq = T / (k² + |μ|)
 
