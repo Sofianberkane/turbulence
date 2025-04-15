@@ -9,9 +9,7 @@ Ce dépôt contient deux scripts Python illustrant la résolution numérique de 
 ### 1. `soliton_simulation.py`
 Ce script simule la propagation d'un **soliton** à l’aide de la méthode du **split-step Fourier** (méthode de Fresnel). On utilise une condition initiale de la forme :
 
-\[
-\psi(x, t=0) = \text{sech}(x) \cdot e^{i v x}
-\]
+ψ(x, t = 0) = sech(x) · exp(i·v·x)
 
 On observe une onde localisée qui se propage sans se déformer, typique du comportement des solitons. Plusieurs courbes \( |\psi(x)|^2 \) sont superposées au fil du temps pour illustrer ce mouvement.
 
@@ -22,9 +20,7 @@ Ce script explore la **thermalisation d’un champ d’onde** injecté aléatoir
 - Le suivi de la fraction condensée \( n_0 \)
 - L'ajustement du spectre \( |\hat{\psi}(k)| \) par la loi :
 
-\[
-n_k^{eq} = \frac{T}{k^2 + |\mu|}
-\]
+n_k^eq = T / (k² + |μ|)
 
 Des visualisations en temps réel du module carré, de son spectre, et de la régression sont proposées.
 
